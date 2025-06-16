@@ -214,7 +214,7 @@ int cpout( char *os_path, char *name )
 		offset += result;
 	}
 
-	printf("copia de %d bytes\n",offset);
+	printf(" copia de %d bytes\n",offset);
 
 	if(file != stdout)
 		fclose(file);
